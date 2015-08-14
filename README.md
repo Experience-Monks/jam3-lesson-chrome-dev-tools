@@ -7,12 +7,20 @@ To open dev tools you have to click Cmd + Alt + I (on OSX) or F12, Ctrl + Shift 
 ###Elements
 Elemets panel allow you to inspect and live edition in the HTML and CSS of a web page.
 This is how this panel looks:
-![alt tag](https://developer.chrome.com/static/images/devtools-extension-ui.png)
+![alt tag](./images/elements-panel.png?raw=true "Elements Panel")  
+
 
 On the left side we have the HTML and on the right side we have the CSS, here we can check all the styles that are applied to the elements and we can change it and see it lively.
 
 ###Console
-Here is the awesome!
+Here is the awesome!  
+
+![alt tag](./images/console-panel-hello.png?raw=true "Console Panel")
+
+In the console you can run whatever you want in Javascript! You can run simple commands and multiple line commands, you can even define functions and use theres later... trust me, here you can do all kind of stuff!  
+The accessible variables in the console are all the ones defined in the current scope, this means that you can't access a variable only by calling it in the console.
+
+
 
 ###Sources
 ###Network
