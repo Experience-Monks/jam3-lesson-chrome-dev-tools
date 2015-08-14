@@ -1,2 +1,2 @@
-# jam3-lesson-dev-tools
+# Dev Tools
 This is a lesson on Dev Tools
