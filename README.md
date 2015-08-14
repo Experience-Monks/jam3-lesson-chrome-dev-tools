@@ -18,7 +18,11 @@ Here is the awesome!
 ![alt tag](./images/console-panel-hello.png?raw=true "Console Panel")
 
 In the console you can run whatever you want in Javascript! You can run simple commands and multiple line commands, you can even define functions and use theres later... trust me, here you can do all kind of stuff!  
-The accessible variables in the console are all the ones defined in the current scope, this means that you can't access a variable only by calling it in the console.
+The accessible variables in the console are all the ones defined in the current scope, this means that you can't access a variable only by calling it in the console.  
+However you have globals variables like 'document' or 'window' that can be access in all places... and by quering document you can reach to any docuement element!  
+For example: 
+  
+document.getElementById("theElementIwantToQuery");
 
 
 
