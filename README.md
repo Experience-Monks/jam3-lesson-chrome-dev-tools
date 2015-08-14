@@ -7,7 +7,7 @@ To open dev tools you have to click Cmd + Alt + I (on OSX) or F12, Ctrl + Shift 
 ###Elements
 Elemets panel allow you to inspect and live edition in the HTML and CSS of a web page.
 This is how this panel looks:
-![alt tag](https://developer.chrome.com/static/images/devtools-extension-ui.png)
+![alt tag](./images/elements-panel.png?raw=true "Elements Panel")
 
 
 On the left side we have the HTML and on the right side we have the CSS, here we can check all the styles that are applied to the elements and we can change it and see it lively.
@@ -15,8 +15,7 @@ On the left side we have the HTML and on the right side we have the CSS, here we
 ###Console
 Here is the awesome!
 
-![alt tag](https://raw.githubusercontent.com/Jam3/jam3-lesson-dev-tools/master/images/console-panel-hello.png)
-![alt tag](./images/elements-panel.png?raw=true "Optional Title")
+![alt tag](./images/console-panel-hello.png?raw=true "Console Panel")
 
 ###Sources
 ###Network
