@@ -28,5 +28,4 @@ Here is the awesome!
 
 If you one to learn more tips and tricks -> https://developer.chrome.com/devtools/docs/tips-and-tricks
 
-to end... 
-Always is good to challenge yourself at Code School ;) -> http://discover-devtools.codeschool.com/
+To end... Always is good to challenge yourself at Code School ;) -> http://discover-devtools.codeschool.com/
