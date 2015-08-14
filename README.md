@@ -9,12 +9,14 @@ Elemets panel allow you to inspect and live edition in the HTML and CSS of a web
 This is how this panel looks:
 ![alt tag](https://developer.chrome.com/static/images/devtools-extension-ui.png)
 
+
 On the left side we have the HTML and on the right side we have the CSS, here we can check all the styles that are applied to the elements and we can change it and see it lively.
 
 ###Console
 Here is the awesome!
 
 ![alt tag](https://raw.githubusercontent.com/Jam3/jam3-lesson-dev-tools/master/images/console-panel-hello.png)
+![alt tag](./images/elements-panel.png?raw=true "Optional Title")
 
 ###Sources
 ###Network
