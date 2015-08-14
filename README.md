@@ -24,4 +24,8 @@ Here is the awesome!
 
 ##Nice Tips!
 
-##Useful information
+##Useful links
+
+If you one to learn more tips and tricks -> https://developer.chrome.com/devtools/docs/tips-and-tricks
+
+to end... always is good to challenge yourself at Code School ;) -> http://discover-devtools.codeschool.com/
