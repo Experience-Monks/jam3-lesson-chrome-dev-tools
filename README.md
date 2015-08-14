@@ -3,8 +3,12 @@ This is a lesson on how we use Chrome Dev Tools in Jam3. Dev Tools provide a nic
 
 ##How to work with Dev Tools?
 ###Elements
+Elemets panel allow you to inspect and live edition in the HTML and CSS of a web page.
+
 
 ###Console
+Here is the awesome!
+
 ###Sources
 ###Network
 ###Resources
