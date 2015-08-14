@@ -7,3 +7,5 @@ This is a lesson on how we use dev tools in Jam3.
 ###Network
 ###Sources
 ###Console
+
+##Nice Tips!
