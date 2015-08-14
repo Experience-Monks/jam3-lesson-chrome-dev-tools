@@ -14,6 +14,8 @@ On the left side we have the HTML and on the right side we have the CSS, here we
 ###Console
 Here is the awesome!
 
+![alt tag](https://raw.githubusercontent.com/Jam3/jam3-lesson-dev-tools/master/images/console-panel-hello.png)
+
 ###Sources
 ###Network
 ###Resources
