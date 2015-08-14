@@ -4,9 +4,14 @@ This is a lesson on how we use dev tools in Jam3.
 
 ##How to work with Dev Tools?
 ###Elements
-###Network
-###Sources
 ###Console
+###Sources
+###Network
+###Resources
+###Timeline
+###Profiles
+
+###Audits
 
 ##Nice Tips!
 
