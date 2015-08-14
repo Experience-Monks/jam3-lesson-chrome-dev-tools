@@ -9,3 +9,5 @@ This is a lesson on how we use dev tools in Jam3.
 ###Console
 
 ##Nice Tips!
+
+##Useful information
