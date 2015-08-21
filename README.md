@@ -65,27 +65,32 @@ Clicking on the line number in a js file will toggle a break point. You can then
 ####working with breakpoints
 
 Once the browser stops on one of your breakpoints, it will jump to the sources tab and highlight the line that triggered it. 
-
+From here you can view the callstack, step through the code, modify variables and call functions.
+the scope that the debugger line is in will be in scope on the console.
 
 ![alt tag](./images/continue.png?raw=true "continue")
-resume execution until next breakpoint. (click and hold and release over second icon will not stop for 500ms)
+resume script execution  
+will continue until next breakpoint. (click and hold release over second icon will not stop for 500ms)
 
 ![alt tag](./images/skip.png?raw=true "Step Over Next Function")
-Step over next function
+Step over next function call  
+If the current line is a function call, it will run the function and stop on the next line.
 
 ![alt tag](./images/into_function.png?raw=true "Step Into Next Function")
-Step into next function 
+Step into next function call  
+If the current line is a function call, it will go to the first line in the function
 
 ![alt tag](./images/out_of_function.png?raw=true "Step Out Of Next Function")
-step out of next function
+step out of current function call  
+continues execution on the line after the current function returns.
+
 
 ![alt tag](./images/turn_off_breakpoints.png?raw=true "Enable Or Disable Breakpoints")
-Enable or disable breakpoints
+Activate/Deactivate breakpoints  
+If deactivated then all break points will be ignored.
 
 ![alt tag](./images/pause_on_exception.png?raw=true "Pause On Exception")
 Pause on exceptions
-
-
 
 ###Network
 ###Resources
