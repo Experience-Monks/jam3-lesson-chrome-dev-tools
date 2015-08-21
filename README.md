@@ -133,6 +133,24 @@ more options can be found by opening the drawer (click the icon that looks like 
 
 ##Nice Tips!
 
+#####Selecting Nodes
+When you click on a node in the element pane, chrome stores that in a variable. You can access it from the console by typing $n, where n is how far back in the history to go. 
+$0 would be the last one you clicked on, $1 would be the second last one.
+
+for example, to find all divs in the last node you clicked you could write
+```js
+$0.getElementsByTagName('div');
+```
+
+#####Auto Clear Cache
+When testing changes in the browser you will need to make sure your cache is cleared. You can do this manual by using the shortcut
+Mac OS - command + shfit + R
+Windows - ctrl + shift + R
+Linux - ctrl + shift + R
+
+you can also disable the cache for a site when the dev tools are open.
+go to the network tab and in the top bar select the "Disable cache" checkbox.
+
 ##Useful links
 
 If you one to learn more tips and tricks -> https://developer.chrome.com/devtools/docs/tips-and-tricks
