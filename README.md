@@ -93,13 +93,42 @@ If deactivated then all break points will be ignored.
 Pause on exceptions
 
 ###Network
+
+The network tab will give information about all the request made by the page. 
+
+####Files
+
+There will be a list of all resource requests. Clicking on one will open up the another pane with more details. This section can also be filtered by type, keyword, or where it falls on the timeline. 
+
+####Details
+
+lots of useful information here.
+
+######Headers
+
+shows basic information about the request like URL, method and status. It also shows Request and Response headers.
+
+######Preview and Response
+
+these panes will show you the contents of the response and files.
+
+######Cookies
+
+lists all cookies sent with request, or received with the response.
+
+######Timing
+
+shows the when events happened and how long they took for the request.
+
 ###Resources
 ###Timeline
 ###Profiles
 ###Audits
 ###Emulation
 
-
+![alt tag](./images/top-bar.png?raw=true "Top Bar")  
+You can enable emulation by clicking the phone icon in the top left, right beside the search icon. This will surround the web view with rulers and a top bar that allows you to set internet speed, device, screen size and user-agent.
+more options can be found by opening the drawer (click the icon that looks like a greater than symbol followed by an underscore) and selecting the Emulation.
 
 ##Nice Tips!
 
