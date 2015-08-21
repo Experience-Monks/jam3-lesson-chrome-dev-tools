@@ -101,9 +101,6 @@ The network tab will give information about all the request made by the page.
 There will be a list of all resource requests. Clicking on one will open up the another pane with more details. This section can also be filtered by type, keyword, or where it falls on the timeline. 
 
 ####Details
-
-lots of useful information here.
-
 ######Headers
 
 shows basic information about the request like URL, method and status. It also shows Request and Response headers.
