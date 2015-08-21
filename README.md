@@ -98,7 +98,7 @@ The network tab will give information about all the request made by the page.
 
 ####Files
 
-There will be a list of all resource requests. Clicking on one will open up the another pane with more details. This section can also be filtered by type, keyword, or where it falls on the timeline. 
+There will be a list of all resource requests. Clicking on one will open up the another pane with more details. This section can also be filtered by type, keyword, or where it falls on the timeline.
 
 ####Details
 ######Headers
@@ -118,9 +118,13 @@ lists all cookies sent with request, or received with the response.
 shows the when events happened and how long they took for the request.
 
 ###Resources
+[[coming soon]]
 ###Timeline
+[[coming soon]]
 ###Profiles
+[[coming soon]]
 ###Audits
+[[coming soon]]
 ###Emulation
 
 ![alt tag](./images/top-bar.png?raw=true "Top Bar")  
