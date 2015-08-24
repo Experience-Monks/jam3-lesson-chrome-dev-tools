@@ -115,10 +115,18 @@ lists all cookies sent with request, or received with the response.
 
 ######Timing
 
-shows the when events happened and how long they took for the request.
+shows when events happened and how long they took for the request.
 
 ###Resources
-[[coming soon]]
+
+######Cookies
+
+clicking on your domain in the cookies category will show all cookies that have been set. from here you can right click on any cookie to delete it, or clear all cookies.
+
+######Local Storage
+
+Clicking on your domain under the local storage category will show you all local storage that has been set. You can right click on the key or value to edit them, or add a new entry by right clicking on the first empty row. 
+
 ###Timeline
 [[coming soon]]
 ###Profiles
