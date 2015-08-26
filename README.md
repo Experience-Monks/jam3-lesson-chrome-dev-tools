@@ -97,13 +97,10 @@ Pause on exceptions
 ###Profiles
 [[coming soon]]
 ###Resources
-
 ######Cookies
-
 clicking on your domain in the cookies category will show all cookies that have been set. from here you can right click on any cookie to delete it, or clear all cookies.
 
 ######Local Storage
-
 Clicking on your domain under the local storage category will show you all local storage that has been set. You can right click on the key or value to edit them, or add a new entry by right clicking on the first empty row. 
 
 ###Audits
@@ -122,28 +119,8 @@ You can access any variable or function defined in the current scope, by default
 You can enable emulation by clicking the phone icon in the top left, right beside the search icon. This will surround the web view with rulers and a top bar that allows you to set internet speed, device, screen size and user-agent.
 more options can be found by opening the drawer (click the icon that looks like a greater than symbol followed by an underscore) and selecting the Emulation.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ##In Practice
-####Snippets
-
-Snippets are js files that you can edit and run in the browser on any page. This can be useful for quickly testing code out or for writing simple utilities.
-
-To get started, click on Snippets then right click on the tab and select "new" this will open a new script that you can start editing. (command+Enter or ctrl+Enter will run the script)
+####Manipulating the DOM
 
 ####Setting Breakpoints
 
@@ -155,6 +132,11 @@ Once the browser stops on one of your breakpoints, it will jump to the sources t
 From here you can view the callstack, step through the code, modify variables and call functions.
 the scope that the debugger line is in will be in scope on the console.
 
+####Writing scripts in the browser
+
+Snippets are js files that you can edit and run in the browser on any page. This can be useful for quickly testing code out or for writing simple utilities.
+
+To get started, click on Snippets then right click on the tab and select "new" this will open a new script that you can start editing. (command+Enter or ctrl+Enter will run the script)
 
 ##Nice Tips!
 
