@@ -1,18 +1,20 @@
-#Chrome Dev Tools
-This is a lesson on how we use Chrome Dev Tools at Jam3. Dev Tools provide a nice way of debugging your code and to quickly try different things in js/html/css.
+#Chrome Developer Tools
+This is an overview of the Chrome Dev Tools and how we use them. The Chrome Dev Tools provide a nice way of debugging your code and to quickly try different js/HTML/css directly in the browser.
 
-##How to start working with Chrome Dev Tools?
-To open dev tools, click on the menu in the top right, go to "more tools" and then click "Developer Tools" you can also use the shortcuts:
+###How to start working with Chrome Developer Tools?
+To open the developer tools, click on the menu in the top right, go to "more tools" and then click "Developer Tools". You will want to start using the shortcuts soon though:
 
 OSX - Cmd + Alt + i
 Linux/Windows - F12 or Ctrl + Shift + I
 
-or, if you want to jump right into inspecting an element. Right click an element, and select "inspect element" this will open the Developer Tools with that element selected. You can also use the shortcuts:
+Or, if you want to jump right into inspecting an element. Right click an element, and select "inspect element" this will open the Developer Tools with that element selected. You can also use the shortcuts and hover over the element:
 
 OSX - Cmd + Shift + C
 Linux/Windows - Ctrl + Alt + C
 
 ##Anatomy
+This section will go over the basic features of the dev tools, organized by tab.
+
 ###Elements
 Elements panel allows you to inspect and live edit the HTML and CSS of a web page.
 ![alt tag](./images/elements-panel.png?raw=true "Elements Panel")  
@@ -26,13 +28,13 @@ The network tab gives you information about all the request made by the page.
 Many filters are available for the network requests in the top bar of the tab.
 You can search for keywords, or select a type (to the right of the search field)
 
-another option is to filter by when the request happend. in the top bar the icon (![alt tag](./images/overview.png?raw=true "Overview")) will toggle the overview on and off. The overview is a visual representation of the requests on a time line. you can quickly filter the requests by when they happened by clicking and dragging for the time span you want.
+another option is to filter by when the request happened. in the top bar the icon (![alt tag](./images/overview.png?raw=true "Overview")) will toggle the overview on and off. The overview is a visual representation of the requests on a time line. you can quickly filter the requests by when they happened by clicking and dragging for the time span you want.
 
 ####Requests
-the main part of this page will be the list of requests with basic information. Clicking on a request will open the details pane that breaks the information into different tabs.
+the main part of this tab will be the list of requests with basic information about them. Clicking on a request will open the details pane that breaks the information into different tabs.
 
 ######Headers
-Shows the request and response headers of the request. It also shoes basic information about the request like URL, method and status.
+Shows the request and response headers for the request. It also shows basic information about the request like URL, method and status.
 
 ######Preview and Response
 these panes will show you the contents of the response or file.
@@ -44,7 +46,7 @@ lists all cookies sent with request, or received with the response.
 shows when events happened and how long they took for the request.
 
 ###Sources
-The sources tab is one of your most important tools when it comes to debugging your javascript in the browser. It allows you to set breakpoints, view breakpoints, view all source files, step through code, view the callstack modify source files and even write and run javascript directly in the browser.
+The sources tab is one of your most important tools when it comes to debugging javascript in the browser. It allows you to set breakpoints, view breakpoints, view source files, step through code, view the callstack, modify source files and even write and run javascript directly in the browser.
 
 there are three panes to the sources tab. 
 
@@ -58,12 +60,14 @@ this pane shows you all the files loaded for the page. It's broken down into 3 g
 ####Pane 2: Editor
 this pane allows you to view/modify the contents of a file and set breakpoints.
 
-If the source file is minified, then it makes it extremely hard to debug. If you need to debug a minified file (e.g live site or third party script) then there is a pretty print button in the bottom left (an icon that looks like an opening and closing curly braces) right beside the line number. This will format the code to make it much easier to read.
+If the source file is minified, then it makes it extremely hard to debug. If you need to debug a minified file (e.g live site or third party script) you can use the pretty print button in the bottom left (an icon that looks like an opening and closing curly braces) right beside the line number. This will format the code to make it much easier to read.
+
+You can also make edits and save the file, this doesn't save it back to your original file but it will use this version when you refresh.
 
 ####Pane 3: debugging menu
 the two main things in the debugging menu are the Call Stack and Breakpoints.
 
-The callstack will be empty until the code hits a breakpoint or you pause the code. At this point you can view the callstack clicking on a call will take you to that file and show you the line.
+The callstack will be empty until execution is paused. At that point you can view the callstack clicking on a call will take you to that file and show you the line.
 
 The breakpoints are broken into categories, Breakpoints, DOM Breakpoints, XHR Breakpoints and Event Listener Breakpoints. In the menues you can toggle any of them on or off with the checkbox.
 
@@ -98,10 +102,10 @@ Pause on exceptions
 [[coming soon]]
 ###Resources
 ######Cookies
-clicking on your domain in the cookies category will show all cookies that have been set. from here you can right click on any cookie to delete it, or clear all cookies.
+clicking on a domain in the cookies category will show all cookies that have been set for that domain. from here you can right click on any cookie to delete it, or clear all cookies.
 
 ######Local Storage
-Clicking on your domain under the local storage category will show you all local storage that has been set. You can right click on the key or value to edit them, or add a new entry by right clicking on the first empty row. 
+Clicking on a domain under the local storage category will show you all local storage that has been set for that domain. You can right click on the key or value to edit them, or add a new entry by right clicking on the first empty row. 
 
 ###Audits
 [[coming soon]]
@@ -117,29 +121,40 @@ You can access any variable or function defined in the current scope, by default
 ###Emulation
 ![alt tag](./images/top-bar.png?raw=true "Top Bar")  
 You can enable emulation by clicking the phone icon in the top left, right beside the search icon. This will surround the web view with rulers and a top bar that allows you to set internet speed, device, screen size and user-agent.
-more options can be found by opening the drawer (click the icon that looks like a greater than symbol followed by an underscore) and selecting the Emulation.
+more options can be found by opening the drawer (click the icon that looks like a greater than symbol followed by an underscore) and selecting the Emulation tab.
 
 ##In Practice
-####Manipulating the DOM
+####Dom Manipulation
+Sometimes you will want to change the dom to test something without having to refresh the browser with every change.
+
+* reorder nodes by simply clicking and dragging it to the new location. 
+
+* edit any attribute by double clicking(or right clicking and select "edit attribute") or add an attribute by right clicking and selecting "Add Attribute"
+
+* do more in depth edits, by right clicking and selecting "Edit as HTML". This will allow you to write and HTML you want, adding nodes and text.
+
+####Style Manipulation
+Testing styles by saving files and refreshing the browser can be tedious, especially if you just want to do something like increment a number by 1 until it looks right. The right panel of the Elements tab solves this problem.
+This panel will show the styles for the currently selected node broken down the the css rules that assigned them.
+
+If you click on these rules you can change the value to be anything you want. If you need to add a new rule, just click underneath the last rule in a section and type in property name and then enter or tab to enter the value.
+
+Crossed out ones are rules that have been overwritten by another rule.
 
 ####Setting Breakpoints
-
-Clicking on the line number in a js file will toggle a break point. You can then refresh your browser to debug your program.
+Clicking on the line number in a javascript file will toggle a break point. you can do this for as many lines as you want and then refresh your browser to debug the code.
 
 ####working with breakpoints
-
-Once the browser stops on one of your breakpoints, it will jump to the sources tab and highlight the line that triggered it. 
+Once the browser stops on one of your breakpoints, it will jump to the sources tab and highlight the line in the file that triggered it. 
 From here you can view the callstack, step through the code, modify variables and call functions.
 the scope that the debugger line is in will be in scope on the console.
 
-####Writing scripts in the browser
-
-Snippets are js files that you can edit and run in the browser on any page. This can be useful for quickly testing code out or for writing simple utilities.
+####Writing/running scripts in the browser
+Snippets are javascript files that you can edit and run in the browser on any page. This can be useful for quickly testing code out or for writing simple utilities.
 
 To get started, click on Snippets then right click on the tab and select "new" this will open a new script that you can start editing. (command+Enter or ctrl+Enter will run the script)
 
 ##Nice Tips!
-
 #####Selecting Nodes
 When you click on a node in the element pane, chrome stores that in a variable. You can access it from the console by typing $n, where n is how far back in the history to go. 
 $0 would be the last one you clicked on, $1 would be the second last one.
@@ -159,12 +174,28 @@ you can also disable the cache for a site when the dev tools are open.
 go to the network tab and in the top bar select the "Disable cache" checkbox.
 
 #####Open the drawer
-[[coming soon]]
+When you are any tab other then the console, it can still be useful to have the console available to run commands. You can have a console at the bottom of the console by opening the drawer.
+in the top right of the console, this 
+![alt tag](./images/open_drawer.png?raw=true "Open Drawer")
+button will toggle the drawer open and closed.
+
 #####Preserve Log
-[[coming soon]]
+If you are debugging something that ends in a redirect of the browser, this will normally clear the console which makes it very difficult to debug. At the top of the console there is a checkbox for "Preserve log" this means that the console will not be cleared on refresh or redirect and you can see what happened.
+
+#####Change Chrome Dev Tools Position
+There are 3 positions for the chrome dev tools, and you will want each one at different times. You can change it by clicking the icon beside the 'x'. Or clicking and holding to reveal another option. 
+
+![alt tag](./images/attached_side.png?raw=true "Attached Side") Attached to the side of the window.
+
+![alt tag](./images/attached_bottom.png?raw=true "Attached Bottom") Attached to the bottom of the window.
+
+![alt tag](./images/detached.png?raw=true "Detached") Detached and in it's own window.
+
+#####Force Element State
+If you are testing a button and want to change the style of the hover state, you don't want to have to hover over it every time you make a change. By right clicking on the node in the element page you can select "Force element state" > "hover" and it will always be it will stay in the hover state. 
+of course, you can do this for active, focus and visited states as well.
 
 ##Useful links
-
 If you one to learn more tips and tricks -> https://developer.chrome.com/devtools/docs/tips-and-tricks
 
 To end... Always is good to challenge yourself at Code School ;) -> http://discover-devtools.codeschool.com/
