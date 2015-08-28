@@ -69,7 +69,7 @@ The two main elements in the debugging menu are the Call Stack and Breakpoints.
 
 The callstack will be empty until execution is paused. At that point you can view the callstack. Clicking on a call will take you to that file and show you the line.
 
-The breakpoints are broken into categories, Breakpoints, DOM Breakpoints, XHR Breakpoints and Event Listener Breakpoints. You can toggle any of them on or off in the menues.  
+The breakpoints are broken into categories, Breakpoints, DOM Breakpoints, XHR Breakpoints and Event Listener Breakpoints. You can toggle any of them on or off in the menus.  
 
 This menu also includes the debugger controls at the top.
 
