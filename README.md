@@ -97,9 +97,17 @@ If deactivated then all break points will be ignored.
 Pause on exceptions
 
 ###Timeline
-[[coming soon]]
+The timeline tab is an overview of the operations of the website. You can see when and how long and when different things took. main things you can see loading, scripting, rendering and painting.
+
+The top portion of this tab will be the main timeline, it shows all events color coded.
+
+The second part shows a more default timeline and a description for each operation. 
+
+the last part is a summary of the currently selected item. Either the current section of the timeline or a single operation.
+
 ###Profiles
-[[coming soon]]
+Here, you can record/debug CPU and memory usage. You can also save them to a file to archive/share.
+
 ###Resources
 ######Cookies
 clicking on a domain in the cookies category will show all cookies that have been set for that domain. from here you can right click on any cookie to delete it, or clear all cookies.
@@ -108,7 +116,7 @@ clicking on a domain in the cookies category will show all cookies that have bee
 Clicking on a domain under the local storage category will show you all local storage that has been set for that domain. You can right click on the key or value to edit them, or add a new entry by right clicking on the first empty row. 
 
 ###Audits
-[[coming soon]]
+Audits can be used to point out performance issues that could be slowing down load times like unused css rules or caching problems.
 
 ###Console
 Here is the awesome!  
