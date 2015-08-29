@@ -9,7 +9,7 @@ Linux/Windows - <kbd>F12</kbd> or <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</k
 
 Or, if you want to jump right into inspecting an element. Right click an element, and select "inspect element" this will open the Developer Tools with that element selected. You can also use the shortcuts and hover over the element:
 
-OSX - <kbd>Cmd</kbd> + <kbd>Shift</kbd< + <kbd>C</kbd>
+OSX - <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd>  
 Linux/Windows - <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>C</kbd>
 
 ##Anatomy
