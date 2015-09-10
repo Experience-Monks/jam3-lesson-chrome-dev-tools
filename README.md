@@ -23,6 +23,7 @@ On the left side we have the HTML document and on the right side we have the CSS
 
 ### Network
 The network tab gives you information about all the request made by the page.
+![alt tag](./images/network.png?raw=true "Network Panel")  
 
 #### Overview and Filtering
 Many filters are available for the network requests in the top bar of the tab.
@@ -46,6 +47,7 @@ Lists all cookies sent with request, or received with the response.
 Shows when events occurred and how long they took for the request.
 
 ### Sources
+![alt tag](./images/sources.png?raw=true "Sources Panel")  
 The sources tab is one of your most important tools when it comes to debugging Javascript in the browser. It allows you to set breakpoints, view breakpoints, view source files, step through code, view the callstack, modify source files and even write and run javascript directly in the browser.
 
 There are three panes to the sources tab. 
@@ -97,6 +99,7 @@ If deactivated then all break points will be ignored.
 Pause on exceptions
 
 ### Timeline
+![alt tag](./images/timeline.png?raw=true "Timeline Panel")  
 The timeline tab is an overview of the operations of the website. You can see "when" and "how long" different things took. The main things you can see are loading, scripting, rendering and painting.
 
 The top portion of this tab will be the main timeline, it shows all events color coded.
@@ -106,9 +109,11 @@ The second part shows a more default timeline and a description for each operati
 The last part is a summary of the currently selected item. Either the current section of the timeline or a single operation.
 
 ### Profiles
+![alt tag](./images/profile.png?raw=true "Profiles Panel")  
 Here, you can record/debug CPU and memory usage. You can also save them to a file to archive/share.
 
 ### Resources
+![alt tag](./images/resources.png?raw=true "Resources Panel")  
 ###### Cookies
 Clicking on a domain in the cookies category will show all cookies that have been set for that domain. From here you can right click on any cookie to delete it, or clear all cookies.
 
@@ -116,6 +121,7 @@ Clicking on a domain in the cookies category will show all cookies that have bee
 Clicking on a domain under the local storage category will show you all local storage that has been set for that domain. You can right click on the key or value to edit them, or add a new entry by right clicking on the first empty row. 
 
 ### Audits
+![alt tag](./images/audits.png?raw=true "Audits Panel")  
 Audits can be used to point out performance issues that could be slowing down load times like unused css rules or caching problems.
 
 ### Console
